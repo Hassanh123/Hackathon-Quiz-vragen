@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+h1 {
+
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.begin {
+    display: flex;
+    justify-content: center;
+}
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.amenu {
+    width: 100%;
+    list-style: none;
+
+}
+ul {
+    list-style: none;
+
+
+}
+
+li {
+    float: left;
+}
+
+
+
+a.amenu {
+   display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: darkblue;
+    border: 1px solid white;
+    text-decoration: none;
+    width: 320px;
+    height: 50px; 
+    line-height: 50px;
+  
+
+
+}
+
+.quizfoto {
+    display: inline-flex;
+    height: 400px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+
+.startbutton {
+
+    background-color: darkblue;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3em;
+    color: #eee;
+    width: 320px;
+    height: 60px;
+    margin-top: 10px;
+    font-size: large;
+    border: none;
+    text-decoration: none;
+    margin-left: 80px;
+
+    
+}
+
+
+.startbutton:hover {
+    box-shadow: 8px 8px #ADD8E6;
+    opacity: 0.7;
+    transition: .3s;
+}
